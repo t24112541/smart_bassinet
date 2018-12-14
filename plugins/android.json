@@ -1,0 +1,22 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-android-window-background": {
+      "WINDOW_BACKGROUND_COLOR": "#1e62ab",
+      "PACKAGE_NAME": "tv.tvdirect.wecan"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "tv.tvdirect.wecan"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "tv.tvdirect.wecan"
+    }
+  },
+  "dependent_plugins": {}
+}

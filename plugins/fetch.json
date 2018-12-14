@@ -1,0 +1,28 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-android-window-background": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-android-window-background"
+    },
+    "is_top_level": true,
+    "variables": {
+      "WINDOW_BACKGROUND_COLOR": "#1e62ab"
+    }
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@2.4.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

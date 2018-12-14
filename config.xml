@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1" id="tv.tvdirect.wecan" ios-CFBundleVersion="1" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TVD WeCan</name>
+    <description>TVD WeCan App</description>
+    <author email="saknarak@gmail.com" href="http://cordova.io">Somsak Sae-Lim</author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="xhdpi" src="res/android/icon-xhdpi.png" />
+        <icon density="xxhdpi" src="res/android/icon-xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/android/icon-xxxhdpi.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="Orientation" value="portrait" />
+    <plugin name="cordova-plugin-android-window-background" spec="^1.0.2">
+        <variable name="WINDOW_BACKGROUND_COLOR" value="#1e62ab" />
+    </plugin>
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <engine name="android" spec="^7.0.0" />
+</widget>
