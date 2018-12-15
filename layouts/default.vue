@@ -27,6 +27,7 @@
       </v-container>
     </v-content>
     <v-footer color="indigo" app inset>
+      <v-spacer></v-spacer>
       <span class="white--text">information technology. CTC </span>
     </v-footer>
   </v-app>
